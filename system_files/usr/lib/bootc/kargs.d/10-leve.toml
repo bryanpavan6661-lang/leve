@@ -1,0 +1,2 @@
+# Boot mais limpo; zswap desligado porque o sistema usa zram
+kargs = ["quiet", "loglevel=3", "zswap.enabled=0"]
